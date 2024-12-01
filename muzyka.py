@@ -31,6 +31,7 @@ class MyApp(QMainWindow):
                 "year": year,
                 "download_number": download_number
                 })
+            
     def update_display(self):
         album = self.albums[self.current_album]
         self.artist_label.setText(album["artist"])
